@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.App {
+    text-align: center;
+    min-width: 900px;
+
+}
+
+.mainCon {
+    display: inline-block;
+    width: 330px;
+    height: 260px;
+    border: 2px solid deepskyblue;
+    margin: 100px 50px;
+    border-radius: 8px;
+}
+
+.display {
+    width: 280px;
+    height: 130px;
+    background-color: deepskyblue;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 70px;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+.displayPanel {
+    width: 280px;
+    height: 130px;
+    background-color: deepskyblue;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+.displayPanel div {
+
+    margin: 10px
+
+}
+
+.red {
+    color: red;
+}
+.redInput{
+    background-color: rgba(255,20,20,.8);
+    box-shadow: 0px 0px 16px rgb(255,0,0);
+}
+.errorClass {
+
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.dashBoard {
+    width: 280px;
+    height: 70px;
+    border: 2px solid deepskyblue;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.dashBoard button {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    margin: 10px;
+    font-family: "American Typewriter";
+    font-size: 25px;
+    font-weight: bold;
+}
